@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Pottery</title>
+  </head>
+  <style>
+    body {
+      background: radial-gradient(859px at 10% 20%, #f5e4c3 0%, #c9a27e 90%);
+      color: #4b2e2e;
+    }
+
+    .container {
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .intro-image {
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+      object-fit: cover;
+      display: block;
+      transition: all 150ms ease-in-out;
+      cursor: pointer;
+    }
+    .intro-image:hover {
+      transform: scale(1.1);
+      filter: contrast(80%);
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 18px;
+      padding: 18px;
+    }
+
+    .image-grid img {
+      width: 100%;
+      height: 250px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+      object-fit: cover;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .image-grid img:hover {
+      transform: scale(1.1);
+      filter: contrast(80%);
+    }
+
+    p {
+      text-align: center;
+      font-size: 18px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .start-btn {
+      display: inline-block;
+      cursor: pointer;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: #b08a5e;
+      color: #3e2e1c;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .start-btn:hover {
+      background-color: #8c6f45;
+      color: #2e220f;
+      text-decoration: none;
+    }
+
+    .toggle-button {
+      padding: 8px 16px;
+      background-color: #c9a27e;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s, color0.3s ease-in-out;
+    }
+
+    .toggle-button:hover {
+      background-color: #b98d69;
+      color: white;
+    }
+
+    .dark .toggle-button:hover {
+      background-color: #3b2a1d;
+      color: #f5e4c3;
+    }
+
+    .dark {
+      background: linear-gradient(
+        87.4deg,
+        #8b5e3c 0%,
+        #5c3b28 50%,
+        #3b2a1d 100%
+      );
+      color: #f5e4c3;
+    }
+
+    .dark .container {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    a:hover {
+      color: #753d81;
+    }
+
+    footer {
+      text-align: center;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 18px;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+  <body>
+    <button class="toggle-button">Dark Theme</button>
+    <div class="container">
+      <h1>Shaping clay, Shaping joy.</h1>
+      <h2>All you need to know about <strong>POTTERY!</strong></h2>
+      <div>
+        <a href="https://www.britannica.com/art/pottery" target="_blank"></a>
+        <img
+          src="https://www.thesprucecrafts.com/thmb/3VqOwOLTzpta2Be2q5uIrSwaKbs=/3868x2574/filters:fill(auto,1)/the-woman-using-the-potter-s-wheel-in-pottery-589083201-5a5a7cd87bb2830037b19a81.jpg"
+          alt="intro pottery"
+          class="intro-image"
+        />
+      </div>
+      <div class="image-grid">
+        <img
+          src="https://th.bing.com/th/id/R.d570e469a37075ce668ce79e44eb3e19?rik=BndDbXTL8VIczQ&pid=ImgRaw&r=0"
+          alt=""
+        />
+        <img
+          src="https://th.bing.com/th/id/OIP.ghLQ2OypqWoOXEbxXP2gGAHaE7?w=2500&h=1662&rs=1&pid=ImgDetMain"
+          alt=""
+        />
+        <img
+          src="https://th.bing.com/th/id/OIP.ugX-wDfsblAxClUgu_JDBgHaED?w=626&h=343&rs=1&pid=ImgDetMain"
+          alt=""
+        />
+        <img
+          src="https://th.bing.com/th/id/OIP.SYgWTWX_UPfMlZ8X4Hm--wHaD4?rs=1&pid=ImgDetMain"
+          alt=""
+        />
+      </div>
+      <p>
+        Pottery is the process and the products of forming vessels and other
+        objects with clay and other raw materials, which are fired at high
+        temperatures to give them a hard and durable form. The place where such
+        wares are made by a potter is also called a pottery (plural potteries).
+        The definition of pottery, used by the ASTM International, is "all fired
+        ceramic wares that contain clay when formed, except technical,
+        structural, and refractory products".[1] End applications include
+        tableware, decorative ware, sanitary ware, and in technology and
+        industry such as electrical insulators and laboratory ware. In art
+        history and archaeology, especially of ancient and prehistoric periods,
+        pottery often means only vessels, and sculpted figurines of the same
+        material are called terracottas.[2] Pottery is made by forming a clay
+        body into objects of a desired shape and heating them to high
+        temperatures (600–1600 °C) in a bonfire, pit or kiln, which induces
+        reactions that lead to permanent changes including increasing the
+        strength and rigidity of the object. Much pottery is purely utilitarian,
+        but some can also be regarded as ceramic art. An article can be
+        decorated before or after firing. Learn more on
+        <a href="https://en.wikipedia.org/wiki/Pottery#"
+          ><strong>Wikipedia.</strong></a
+        >
+      </p>
+      <hr />
+      <div class="button-container">
+        <button class="start-btn" onclick="startPottery()">
+          ➡️Start pottery today
+        </button>
+      </div>
+    </div>
+    <footer>This page was built by <strong>Nandipha Mkhwanazi</strong></footer>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        let toggle = document.querySelector(".toggle-button");
+
+        body.classList.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          toggleButton.textContent = "Light Theme";
+        } else {
+          toggleButton.textContent = "Dark Theme";
+        }
+      }
+
+      let toggleButton = document.querySelector(".toggle-button");
+      toggleButton.addEventListener("click", changeTheme);
+
+      function startPottery() {
+        const wantsToSignUp = confirm(
+          "Would you like to sign up for pottery classes?"
+        );
+        if (wantsToSignUp) {
+          const name = prompt("Awesome! What's your name?");
+          if (name) {
+            alert(
+              "Thank you, " +
+                name +
+                "! We are now redirecting you to another page."
+            );
+            window.location.href =
+              "https://www.createwithclay.co.za/potteryclass";
+          } else {
+            alert("No worries! Maybe next time.");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
